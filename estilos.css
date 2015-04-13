@@ -12,10 +12,16 @@ body {
   background-color: #867d00;
   width: auto;
 }
+.coloryea {
+  height: 110px;
+  width: auto;
+  background-color: #ffe947;
+}
 header {
   height: 110px;
   background-color: #ffe947;
-  width: auto;
+  width: 1200px;
+  margin: 0 auto;
 }
 header .logo {
   float: left;
@@ -82,7 +88,8 @@ header .textop span {
   float: left;
   position: relative;
   right: 201px;
-  top: 54px;
+  top: 25px;
+  width: 400px;
 }
 .baner .content .boton {
   display: inline-block;
@@ -128,13 +135,14 @@ header .textop span {
   background-color: #ffe947;
 }
 #productos .prodcenter {
-  margin-left: 80px;
+  margin: 0 auto;
+  width: 1024px;
 }
 #productos .prodcenter .group {
   margin-top: 20px;
   border: 1px solid #808080;
   width: 240px;
-  margin-left: 20px;
+  margin-left: 10px;
   position: relative;
   top: 43px;
   background-color: #fff;
@@ -199,24 +207,24 @@ header .textop span {
   height: 104px;
   width: auto;
 }
-.baner02 .canasta {
+.baner02 .gropobar2 {
+  width: 700px;
+  margin: 0 auto;
+}
+.baner02 .gropobar2 .canasta {
+  float: left;
+}
+.baner02 .gropobar2 .text {
   float: left;
   position: relative;
-  left: 300px;
+  top: 2px;
 }
-.baner02 .text {
-  float: left;
-  position: relative;
-  left: 300px;
-  top: 1px;
-  height: 0px;
-}
-.baner02 .text h2 {
+.baner02 .gropobar2 .text h2 {
   font-size: 2em;
   position: relative;
   bottom: 12px;
 }
-.baner02 .text span {
+.baner02 .gropobar2 .text span {
   font-size: 1.62em;
   position: relative;
   bottom: 50px;
@@ -227,17 +235,19 @@ header .textop span {
   background-color: #ffe947;
   height: 200px;
   position: relative;
-  bottom: 3px;
+  bottom: 32px;
 }
 .pasgris {
   background-color: #efefef;
   position: relative;
-  bottom: 10px;
-  height: 300px;
+  bottom: 33px;
+  height: 328px;
 }
 #pasos .all {
   position: relative;
-  left: 61px;
+  width: 1200px;
+  margin: 0 auto;
+  bottom: 30px;
 }
 #pasos .all .grupopas {
   float: left;
@@ -288,10 +298,12 @@ header .textop span {
 }
 /*------------------------------------------------------------------------------------------------formas*/
 .formas {
-  text-align: center;
   font-size: 1.4em;
   position: relative;
-  bottom: 380px;
+  left: 40px;
+  bottom: 391px;
+  width: 400px;
+  margin: 0 auto;
 }
 .barr {
   background-color: #efefef;
@@ -303,12 +315,15 @@ header .textop span {
 .imagenbarr {
   position: relative;
   bottom: 495px;
-  left: 560px;
+  width: 120px;
+  margin: 0 auto;
+  right: 27px;
 }
 .marcaspay {
   position: relative;
   bottom: 478px;
-  left: 140px;
+  width: 947px;
+  margin: 0 auto;
 }
 /*------------------------------------------------------------------------------------------------footer*/
 footer {
@@ -322,15 +337,15 @@ footer {
 }
 footer .legal {
   position: relative;
-  left: 30px;
+  width: 400px;
+  margin: 0 auto;
 }
 footer .legal .fooel {
   position: relative;
-  left: 400px;
   bottom: 12px;
 }
 footer .legal .text {
   position: relative;
-  left: 600px;
+  left: 116px;
   bottom: 92px;
 }
