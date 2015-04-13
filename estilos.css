@@ -1,0 +1,336 @@
+@import 'normalize.css';
+.clear {
+  clear: both;
+}
+body {
+  font-family: 'Istok Web', sans-serif;
+  height: 200px;
+}
+/*------------------------------------------------------------------------------------------------header*/
+.top {
+  height: 10px;
+  background-color: #867d00;
+  width: auto;
+}
+header {
+  height: 110px;
+  background-color: #ffe947;
+  width: auto;
+}
+header .logo {
+  float: left;
+  margin-left: 150px;
+}
+header .logo img {
+  width: 320px;
+  height: auto;
+}
+header .textop {
+  float: left;
+  background-color: #fff4a3;
+  padding: 0 70px;
+  text-align: center;
+  position: relative;
+  right: 37px;
+}
+header .textop h2 {
+  font-size: 1.7em;
+  line-height: 1;
+  margin-top: 10px;
+}
+header .textop span {
+  position: relative;
+  bottom: 15px;
+}
+.social {
+  float: left;
+  position: relative;
+  top: 30px;
+  left: 30px;
+}
+.social .fb-like {
+  position: relative;
+  bottom: 7px;
+}
+/*------------------------------------------------------------------------------------------------baner*/
+.baner {
+  height: 213px;
+  width: auto;
+  background-color: #fff4a3;
+}
+.baner .label {
+  background: url("assets/etiqueta.png");
+  float: left;
+  height: 253px;
+  width: 305px;
+  background-position: 0 -42px;
+  position: relative;
+  right: 247px;
+}
+.baner .label span {
+  float: left;
+  position: relative;
+  left: 44px;
+  width: 152px;
+  font-size: 2em;
+  font-weight: 700;
+  top: 44px;
+  color: #fff;
+  line-height: 28px;
+}
+.baner .content {
+  float: left;
+  position: relative;
+  right: 201px;
+  top: 54px;
+}
+.baner .content .boton {
+  display: inline-block;
+}
+.baner .content .boton a {
+  text-decoration: none;
+  color: #fff;
+  display: block;
+  padding: 8px 25px;
+  background-color: #1655b3;
+  font-weight: 700;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  -webkit-transition: 0.2s ease-in;
+  -moz-transition: 0.2s ease-in;
+  -o-transition: 0.2s ease-in;
+  -ms-transition: 0.2s ease-in;
+  transition: 0.2s ease-in;
+}
+.baner .content .boton a:hover {
+  background-color: #eb174f;
+}
+.baner .content .texto h2 {
+  font-size: 1.59em;
+}
+.baner .content .texto h2 span {
+  color: #eb174f;
+}
+.baner .content .texto p {
+  position: relative;
+  bottom: 20px;
+}
+.yel {
+  background-color: #ffe947;
+  width: auto;
+  height: 40px;
+}
+/*------------------------------------------------------------------------------------------------productos*/
+#productos {
+  height: 320px;
+  width: auto;
+  background-color: #ffe947;
+}
+#productos .prodcenter {
+  margin-left: 80px;
+}
+#productos .prodcenter .group {
+  margin-top: 20px;
+  border: 1px solid #808080;
+  width: 240px;
+  margin-left: 20px;
+  position: relative;
+  top: 43px;
+  background-color: #fff;
+  padding-bottom: 100px;
+  float: left;
+}
+#productos .prodcenter .group .imagen {
+  position: relative;
+  bottom: 35px;
+}
+#productos .prodcenter .group .title {
+  position: relative;
+  bottom: 35px;
+  text-align: center;
+  width: 90%;
+  margin: 0 auto;
+}
+#productos .prodcenter .group .title a {
+  text-decoration: none;
+}
+#productos .prodcenter .group .precio {
+  position: relative;
+  bottom: 30px;
+  text-align: center;
+  font-weight: 700;
+}
+#productos .prodcenter .group .boton {
+  position: relative;
+  top: 28px;
+  text-align: center;
+}
+#productos .prodcenter .group .boton a {
+  text-decoration: none;
+  padding: 5px 15px;
+  background-color: #1655b3;
+  color: #fff;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  -webkit-transition: 0.2s ease-in;
+  -moz-transition: 0.2s ease-in;
+  -o-transition: 0.2s ease-in;
+  -ms-transition: 0.2s ease-in;
+  transition: 0.2s ease-in;
+}
+#productos .prodcenter .group .boton a:hover {
+  background-color: #eb174f;
+}
+#productos .prodcenter .group .lista {
+  position: relative;
+  top: 50px;
+  text-align: center;
+  font-size: 0.8em;
+}
+#productos .prodcenter .group .lista a {
+  text-decoration: none;
+}
+/*------------------------------------------------------------------------------------------------baner02*/
+.baner02 {
+  background-color: #fff4a3;
+  margin-top: 70px;
+  height: 104px;
+  width: auto;
+}
+.baner02 .canasta {
+  float: left;
+  position: relative;
+  left: 300px;
+}
+.baner02 .text {
+  float: left;
+  position: relative;
+  left: 300px;
+  top: 1px;
+  height: 0px;
+}
+.baner02 .text h2 {
+  font-size: 2em;
+  position: relative;
+  bottom: 12px;
+}
+.baner02 .text span {
+  font-size: 1.62em;
+  position: relative;
+  bottom: 50px;
+  height: 0;
+}
+/*------------------------------------------------------------------------------------------------pasos*/
+.pasyel {
+  background-color: #ffe947;
+  height: 200px;
+  position: relative;
+  bottom: 3px;
+}
+.pasgris {
+  background-color: #efefef;
+  position: relative;
+  bottom: 10px;
+  height: 300px;
+}
+#pasos .all {
+  position: relative;
+  left: 61px;
+}
+#pasos .all .grupopas {
+  float: left;
+  width: 260px;
+  margin-left: 15px;
+  position: relative;
+  bottom: 466px;
+  background-color: #fff;
+  height: 343px;
+}
+#pasos .all .grupopas .title {
+  background-color: #f6ebd8;
+}
+#pasos .all .grupopas .title h2 {
+  margin: 0 0 0 12px;
+  padding: 5px 0;
+}
+#pasos .all .grupopas .imagen {
+  margin: 14px 15px;
+}
+#pasos .all .grupopas .content {
+  margin: 0 20px;
+  font-size: 0.9em;
+  margin-top: 30px;
+}
+.botonazo {
+  position: relative;
+  bottom: 417px;
+  left: 460px;
+}
+.botonazo a {
+  text-decoration: none;
+  padding: 8px 25px;
+  background-color: #1655b3;
+  color: #fff;
+  font-size: 1.4em;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  -webkit-transition: 0.2s ease-in;
+  -moz-transition: 0.2s ease-in;
+  -o-transition: 0.2s ease-in;
+  -ms-transition: 0.2s ease-in;
+  transition: 0.2s ease-in;
+}
+.botonazo a:hover {
+  background-color: #eb174f;
+}
+/*------------------------------------------------------------------------------------------------formas*/
+.formas {
+  text-align: center;
+  font-size: 1.4em;
+  position: relative;
+  bottom: 380px;
+}
+.barr {
+  background-color: #efefef;
+  height: 120px;
+  width: auto;
+  position: relative;
+  bottom: 380px;
+}
+.imagenbarr {
+  position: relative;
+  bottom: 495px;
+  left: 560px;
+}
+.marcaspay {
+  position: relative;
+  bottom: 478px;
+  left: 140px;
+}
+/*------------------------------------------------------------------------------------------------footer*/
+footer {
+  position: relative;
+  bottom: 454px;
+  background-color: #000;
+  color: #fff;
+  padding: 20px 0;
+  overflow: hidden;
+  height: 65px;
+}
+footer .legal {
+  position: relative;
+  left: 30px;
+}
+footer .legal .fooel {
+  position: relative;
+  left: 400px;
+  bottom: 12px;
+}
+footer .legal .text {
+  position: relative;
+  left: 600px;
+  bottom: 92px;
+}
