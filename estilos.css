@@ -269,10 +269,16 @@ header .textop span {
 #pasos .all .grupopas .imagen {
   margin: 14px 15px;
 }
-#pasos .all .grupopas .content {
+#pasos .all .grupopas .content1 {
   margin: 0 20px;
   font-size: 0.9em;
   margin-top: 30px;
+}
+#pasos .all .grupopas .content2 {
+  margin: 0 20px;
+  font-size: 0.9em;
+  position: relative;
+  bottom: 18px;
 }
 .botonazo {
   position: relative;
