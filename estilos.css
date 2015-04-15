@@ -1,358 +1,1089 @@
+/*
+Theme Name: Marion.com.co
+Theme URI: ---
+Description: Responsive
+Author: Dymenxion
+Version: 1.0
+*/
 @import 'normalize.css';
-.clear {
-  clear: both;
+/* Mobile Firts */
+/* Tablets: Portrait */
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  .clear {
+    clear: both;
+  }
+  body {
+    font-family: 'Istok Web', sans-serif;
+    height: 200px;
+    overflow-x: hidden;
+  }
+  .top {
+    height: 10px;
+    background-color: #867d00;
+    width: auto;
+  }
+  .coloryea {
+    height: 78px;
+    width: auto;
+    background-color: #ffe947;
+  }
+  header {
+    height: 78px;
+    background-color: #ffe947;
+    margin: 0 auto;
+  }
+  header .logo {
+    float: left;
+    margin-left: 10px;
+  }
+  header .logo img {
+    width: 250px;
+    height: auto;
+  }
+  header .textop {
+    float: left;
+    background-color: #fff4a3;
+    padding: 0 20px;
+    text-align: center;
+    position: relative;
+    right: 37px;
+  }
+  header .textop h2 {
+    font-size: 1em;
+    line-height: 1;
+    margin-top: 10px;
+  }
+  header .textop span {
+    position: relative;
+    bottom: 15px;
+  }
+  .social {
+    float: left;
+    position: relative;
+    top: 30px;
+  }
+  .social .fb-like {
+    position: relative;
+    bottom: 7px;
+  }
+  .baner {
+    height: 213px;
+    width: auto;
+    background-color: #fff4a3;
+  }
+  .baner .label {
+    background: url("assets/etiqueta.png");
+    float: left;
+    height: 253px;
+    width: 305px;
+    background-position: 0 -42px;
+    position: relative;
+    right: 247px;
+  }
+  .baner .label span {
+    float: left;
+    position: relative;
+    left: 44px;
+    width: 152px;
+    font-size: 2em;
+    font-weight: 700;
+    top: 44px;
+    color: #fff;
+    line-height: 28px;
+  }
+  .baner .content {
+    float: left;
+    position: relative;
+    right: 168px;
+    top: 10px;
+    width: 203px;
+  }
+  .baner .content .boton {
+    display: inline-block;
+  }
+  .baner .content .boton a {
+    text-decoration: none;
+    color: #fff;
+    display: block;
+    padding: 8px 25px;
+    background-color: #1655b3;
+    font-weight: 700;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    -webkit-transition: 0.2s ease-in;
+    -moz-transition: 0.2s ease-in;
+    -o-transition: 0.2s ease-in;
+    -ms-transition: 0.2s ease-in;
+    transition: 0.2s ease-in;
+  }
+  .baner .content .boton a:hover {
+    background-color: #eb174f;
+  }
+  .baner .content .texto {
+    width: 264px;
+  }
+  .baner .content .texto h2 {
+    font-size: 1.2em;
+  }
+  .baner .content .texto h2 span {
+    color: #eb174f;
+  }
+  .baner .content .texto p {
+    position: relative;
+    bottom: 4px;
+  }
+  .yel {
+    background-color: #ffe947;
+    width: auto;
+    height: 40px;
+  }
+  #productos {
+    height: 320px;
+    width: auto;
+    background-color: #ffe947;
+  }
+  #productos .prodcenter {
+    margin: 0 auto;
+    width: 762px;
+  }
+  #productos .prodcenter .group {
+    margin-top: 20px;
+    border: 1px solid #808080;
+    width: 176px;
+    margin-left: 10px;
+    position: relative;
+    top: 43px;
+    background-color: #fff;
+    padding-bottom: 100px;
+    float: left;
+  }
+  #productos .prodcenter .group .imagen {
+    position: relative;
+    bottom: 25px;
+  }
+  #productos .prodcenter .group .imagen img {
+    width: 90%;
+  }
+  #productos .prodcenter .group .title {
+    position: relative;
+    bottom: 20px;
+    text-align: center;
+    width: 90%;
+    margin: 0 auto;
+  }
+  #productos .prodcenter .group .title a {
+    text-decoration: none;
+  }
+  #productos .prodcenter .group .precio {
+    position: relative;
+    bottom: 10px;
+    text-align: center;
+    font-weight: 700;
+  }
+  #productos .prodcenter .group .boton {
+    position: relative;
+    top: 28px;
+    text-align: center;
+  }
+  #productos .prodcenter .group .boton a {
+    text-decoration: none;
+    padding: 5px 15px;
+    background-color: #1655b3;
+    color: #fff;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    -webkit-transition: 0.2s ease-in;
+    -moz-transition: 0.2s ease-in;
+    -o-transition: 0.2s ease-in;
+    -ms-transition: 0.2s ease-in;
+    transition: 0.2s ease-in;
+  }
+  #productos .prodcenter .group .boton a:hover {
+    background-color: #eb174f;
+  }
+  #productos .prodcenter .group .lista {
+    position: relative;
+    top: 50px;
+    text-align: center;
+    font-size: 0.8em;
+  }
+  #productos .prodcenter .group .lista a {
+    text-decoration: none;
+  }
+  .baner02 {
+    background-color: #fff4a3;
+    margin-top: 70px;
+    height: 104px;
+    width: auto;
+  }
+  .baner02 .gropobar2 {
+    width: 633px;
+    margin: 0 auto;
+  }
+  .baner02 .gropobar2 .canasta {
+    float: left;
+  }
+  .baner02 .gropobar2 .text {
+    float: left;
+    position: relative;
+    top: 2px;
+  }
+  .baner02 .gropobar2 .text h2 {
+    font-size: 2em;
+    position: relative;
+    bottom: 12px;
+  }
+  .baner02 .gropobar2 .text span {
+    font-size: 1.62em;
+    position: relative;
+    bottom: 50px;
+    height: 0;
+  }
+  .pasyel {
+    background-color: #ffe947;
+    height: 200px;
+    position: relative;
+    bottom: 32px;
+  }
+  .pasgris {
+    background-color: #efefef;
+    position: relative;
+    bottom: 33px;
+    height: 680px;
+  }
+  #pasos .all {
+    position: relative;
+    width: 700px;
+    top: -386px;
+  }
+  #pasos .all .grupopas {
+    float: left;
+    width: 240px;
+    margin-left: 104px;
+    position: relative;
+    bottom: 505px;
+    background-color: #fff;
+    height: 343px;
+    margin-top: 21px;
+  }
+  #pasos .all .grupopas .title {
+    background-color: #f6ebd8;
+  }
+  #pasos .all .grupopas .title h2 {
+    margin: 0 0 0 12px;
+    padding: 5px 0;
+  }
+  #pasos .all .grupopas .imagen {
+    margin: 14px 15px;
+  }
+  #pasos .all .grupopas .imagen img {
+    width: 99%;
+    height: auto;
+  }
+  #pasos .all .grupopas .content1 {
+    margin: 0 20px;
+    font-size: 0.9em;
+    margin-top: 30px;
+  }
+  #pasos .all .grupopas .content2 {
+    margin: 0 20px;
+    font-size: 0.9em;
+    position: relative;
+    bottom: 18px;
+  }
+  .botonazo {
+    width: 225px;
+    margin-left: 280px;
+    position: relative;
+    bottom: 438px;
+  }
+  .botonazo a {
+    text-decoration: none;
+    padding: 8px 25px;
+    background-color: #1655b3;
+    color: #fff;
+    font-size: 1.4em;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    -webkit-transition: 0.2s ease-in;
+    -moz-transition: 0.2s ease-in;
+    -o-transition: 0.2s ease-in;
+    -ms-transition: 0.2s ease-in;
+    transition: 0.2s ease-in;
+  }
+  .botonazo a:hover {
+    background-color: #eb174f;
+  }
+  .formas {
+    font-size: 1.4em;
+    position: relative;
+    left: 56px;
+    width: 400px;
+    margin: 0 auto;
+    top: -775px;
+  }
+  .barr {
+    background-color: #efefef;
+    height: 120px;
+    width: auto;
+    position: relative;
+    top: -753px;
+  }
+  .imagenbarr {
+    position: relative;
+    top: -866px;
+    width: 120px;
+    margin: 0 auto;
+    right: 27px;
+  }
+  .marcaspay {
+    position: relative;
+    top: -817px;
+    width: 872px;
+    margin: 0 auto;
+  }
+  .marcaspay img {
+    width: 88%;
+  }
+  footer {
+    position: relative;
+    bottom: 769px;
+    background-color: #000;
+    color: #fff;
+    padding: 20px 0;
+    height: 298px;
+  }
+  footer .legal {
+    position: relative;
+    width: 400px;
+    margin: 0 auto;
+  }
+  footer .legal .fooel {
+    position: relative;
+    bottom: -29px;
+    left: -99px;
+  }
+  footer .legal .fooel img {
+    width: 61%;
+  }
+  footer .legal .text {
+    position: relative;
+    left: 196px;
+    bottom: 135px;
+    font-size: 1.5em;
+  }
 }
-body {
-  font-family: 'Istok Web', sans-serif;
-  height: 200px;
-  overflow-x: hidden;
+/* Tablets: Landscape */
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+  .clear {
+    clear: both;
+  }
+  body {
+    font-family: 'Istok Web', sans-serif;
+    height: 200px;
+    overflow-x: hidden;
+  }
+  .top {
+    height: 10px;
+    background-color: #867d00;
+    width: auto;
+  }
+  .coloryea {
+    height: 110px;
+    width: auto;
+    background-color: #ffe947;
+  }
+  header {
+    height: 110px;
+    background-color: #ffe947;
+    margin: 0 auto;
+  }
+  header .logo {
+    float: left;
+    margin-left: 30px;
+  }
+  header .logo img {
+    width: 320px;
+    height: auto;
+  }
+  header .textop {
+    float: left;
+    background-color: #fff4a3;
+    padding: 0 70px;
+    text-align: center;
+    position: relative;
+    right: 37px;
+  }
+  header .textop h2 {
+    font-size: 1.7em;
+    line-height: 1;
+    margin-top: 10px;
+  }
+  header .textop span {
+    position: relative;
+    bottom: 15px;
+  }
+  .social {
+    float: left;
+    position: relative;
+    top: 30px;
+    left: 30px;
+  }
+  .social .fb-like {
+    position: relative;
+    bottom: 7px;
+  }
+  .baner {
+    height: 213px;
+    width: auto;
+    background-color: #fff4a3;
+  }
+  .baner .label {
+    background: url("assets/etiqueta.png");
+    float: left;
+    height: 253px;
+    width: 305px;
+    background-position: 0 -42px;
+    position: relative;
+    right: 247px;
+  }
+  .baner .label span {
+    float: left;
+    position: relative;
+    left: 44px;
+    width: 152px;
+    font-size: 2em;
+    font-weight: 700;
+    top: 44px;
+    color: #fff;
+    line-height: 28px;
+  }
+  .baner .content {
+    float: left;
+    position: relative;
+    right: 168px;
+    top: 32px;
+    width: 360px;
+  }
+  .baner .content .boton {
+    display: inline-block;
+  }
+  .baner .content .boton a {
+    text-decoration: none;
+    color: #fff;
+    display: block;
+    padding: 8px 25px;
+    background-color: #1655b3;
+    font-weight: 700;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    -webkit-transition: 0.2s ease-in;
+    -moz-transition: 0.2s ease-in;
+    -o-transition: 0.2s ease-in;
+    -ms-transition: 0.2s ease-in;
+    transition: 0.2s ease-in;
+  }
+  .baner .content .boton a:hover {
+    background-color: #eb174f;
+  }
+  .baner .content .texto h2 {
+    font-size: 1.59em;
+  }
+  .baner .content .texto h2 span {
+    color: #eb174f;
+  }
+  .baner .content .texto p {
+    position: relative;
+    bottom: 20px;
+  }
+  .yel {
+    background-color: #ffe947;
+    width: auto;
+    height: 40px;
+  }
+  #productos {
+    height: 320px;
+    width: auto;
+    background-color: #ffe947;
+  }
+  #productos .prodcenter {
+    margin: 0 auto;
+    width: 1012px;
+  }
+  #productos .prodcenter .group {
+    margin-top: 20px;
+    border: 1px solid #808080;
+    width: 238px;
+    margin-left: 10px;
+    position: relative;
+    top: 43px;
+    background-color: #fff;
+    padding-bottom: 100px;
+    float: left;
+  }
+  #productos .prodcenter .group .imagen {
+    position: relative;
+    bottom: 35px;
+  }
+  #productos .prodcenter .group .title {
+    position: relative;
+    bottom: 35px;
+    text-align: center;
+    width: 90%;
+    margin: 0 auto;
+  }
+  #productos .prodcenter .group .title a {
+    text-decoration: none;
+  }
+  #productos .prodcenter .group .precio {
+    position: relative;
+    bottom: 30px;
+    text-align: center;
+    font-weight: 700;
+  }
+  #productos .prodcenter .group .boton {
+    position: relative;
+    top: 28px;
+    text-align: center;
+  }
+  #productos .prodcenter .group .boton a {
+    text-decoration: none;
+    padding: 5px 15px;
+    background-color: #1655b3;
+    color: #fff;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    -webkit-transition: 0.2s ease-in;
+    -moz-transition: 0.2s ease-in;
+    -o-transition: 0.2s ease-in;
+    -ms-transition: 0.2s ease-in;
+    transition: 0.2s ease-in;
+  }
+  #productos .prodcenter .group .boton a:hover {
+    background-color: #eb174f;
+  }
+  #productos .prodcenter .group .lista {
+    position: relative;
+    top: 50px;
+    text-align: center;
+    font-size: 0.8em;
+  }
+  #productos .prodcenter .group .lista a {
+    text-decoration: none;
+  }
+  .baner02 {
+    background-color: #fff4a3;
+    margin-top: 70px;
+    height: 104px;
+    width: auto;
+  }
+  .baner02 .gropobar2 {
+    width: 700px;
+    margin: 0 auto;
+  }
+  .baner02 .gropobar2 .canasta {
+    float: left;
+  }
+  .baner02 .gropobar2 .text {
+    float: left;
+    position: relative;
+    top: 2px;
+  }
+  .baner02 .gropobar2 .text h2 {
+    font-size: 2em;
+    position: relative;
+    bottom: 12px;
+  }
+  .baner02 .gropobar2 .text span {
+    font-size: 1.62em;
+    position: relative;
+    bottom: 50px;
+    height: 0;
+  }
+  .pasyel {
+    background-color: #ffe947;
+    height: 200px;
+    position: relative;
+    bottom: 32px;
+  }
+  .pasgris {
+    background-color: #efefef;
+    position: relative;
+    bottom: 33px;
+    height: 328px;
+  }
+  #pasos .all {
+    position: relative;
+    width: 1024px;
+    margin: 0 auto;
+    bottom: 30px;
+  }
+  #pasos .all .grupopas {
+    float: left;
+    width: 240px;
+    margin-left: 12px;
+    position: relative;
+    bottom: 505px;
+    background-color: #fff;
+    height: 343px;
+  }
+  #pasos .all .grupopas .title {
+    background-color: #f6ebd8;
+  }
+  #pasos .all .grupopas .title h2 {
+    margin: 0 0 0 12px;
+    padding: 5px 0;
+  }
+  #pasos .all .grupopas .imagen {
+    margin: 14px 15px;
+  }
+  #pasos .all .grupopas .imagen img {
+    width: 99%;
+    height: auto;
+  }
+  #pasos .all .grupopas .content1 {
+    margin: 0 20px;
+    font-size: 0.9em;
+    margin-top: 30px;
+  }
+  #pasos .all .grupopas .content2 {
+    margin: 0 20px;
+    font-size: 0.9em;
+    position: relative;
+    bottom: 18px;
+  }
+  .botonazo {
+    width: 225px;
+    margin: 0 auto;
+    position: relative;
+    bottom: 438px;
+  }
+  .botonazo a {
+    text-decoration: none;
+    padding: 8px 25px;
+    background-color: #1655b3;
+    color: #fff;
+    font-size: 1.4em;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    -webkit-transition: 0.2s ease-in;
+    -moz-transition: 0.2s ease-in;
+    -o-transition: 0.2s ease-in;
+    -ms-transition: 0.2s ease-in;
+    transition: 0.2s ease-in;
+  }
+  .botonazo a:hover {
+    background-color: #eb174f;
+  }
+  .formas {
+    font-size: 1.4em;
+    position: relative;
+    left: 40px;
+    bottom: 391px;
+    width: 400px;
+    margin: 0 auto;
+  }
+  .barr {
+    background-color: #efefef;
+    height: 120px;
+    width: auto;
+    position: relative;
+    bottom: 380px;
+  }
+  .imagenbarr {
+    position: relative;
+    bottom: 495px;
+    width: 120px;
+    margin: 0 auto;
+    right: 27px;
+  }
+  .marcaspay {
+    position: relative;
+    bottom: 478px;
+    width: 947px;
+    margin: 0 auto;
+  }
+  footer {
+    position: relative;
+    bottom: 454px;
+    background-color: #000;
+    color: #fff;
+    padding: 20px 0;
+    overflow: hidden;
+    height: 65px;
+  }
+  footer .legal {
+    position: relative;
+    width: 400px;
+    margin: 0 auto;
+  }
+  footer .legal .fooel {
+    position: relative;
+    bottom: 12px;
+  }
+  footer .legal .text {
+    position: relative;
+    left: 116px;
+    bottom: 92px;
+  }
 }
-/*------------------------------------------------------------------------------------------------header*/
-.top {
-  height: 10px;
-  background-color: #867d00;
-  width: auto;
-}
-.coloryea {
-  height: 110px;
-  width: auto;
-  background-color: #ffe947;
-}
-header {
-  height: 110px;
-  background-color: #ffe947;
-  width: 1200px;
-  margin: 0 auto;
-}
-header .logo {
-  float: left;
-  margin-left: 150px;
-}
-header .logo img {
-  width: 320px;
-  height: auto;
-}
-header .textop {
-  float: left;
-  background-color: #fff4a3;
-  padding: 0 70px;
-  text-align: center;
-  position: relative;
-  right: 37px;
-}
-header .textop h2 {
-  font-size: 1.7em;
-  line-height: 1;
-  margin-top: 10px;
-}
-header .textop span {
-  position: relative;
-  bottom: 15px;
-}
-.social {
-  float: left;
-  position: relative;
-  top: 30px;
-  left: 30px;
-}
-.social .fb-like {
-  position: relative;
-  bottom: 7px;
-}
-/*------------------------------------------------------------------------------------------------baner*/
-.baner {
-  height: 213px;
-  width: auto;
-  background-color: #fff4a3;
-}
-.baner .label {
-  background: url("assets/etiqueta.png");
-  float: left;
-  height: 253px;
-  width: 305px;
-  background-position: 0 -42px;
-  position: relative;
-  right: 247px;
-}
-.baner .label span {
-  float: left;
-  position: relative;
-  left: 44px;
-  width: 152px;
-  font-size: 2em;
-  font-weight: 700;
-  top: 44px;
-  color: #fff;
-  line-height: 28px;
-}
-.baner .content {
-  float: left;
-  position: relative;
-  right: 201px;
-  top: 25px;
-  width: 400px;
-}
-.baner .content .boton {
-  display: inline-block;
-}
-.baner .content .boton a {
-  text-decoration: none;
-  color: #fff;
-  display: block;
-  padding: 8px 25px;
-  background-color: #1655b3;
-  font-weight: 700;
-  -webkit-border-radius: 4px;
-  -moz-border-radius: 4px;
-  border-radius: 4px;
-  -webkit-transition: 0.2s ease-in;
-  -moz-transition: 0.2s ease-in;
-  -o-transition: 0.2s ease-in;
-  -ms-transition: 0.2s ease-in;
-  transition: 0.2s ease-in;
-}
-.baner .content .boton a:hover {
-  background-color: #eb174f;
-}
-.baner .content .texto h2 {
-  font-size: 1.59em;
-}
-.baner .content .texto h2 span {
-  color: #eb174f;
-}
-.baner .content .texto p {
-  position: relative;
-  bottom: 20px;
-}
-.yel {
-  background-color: #ffe947;
-  width: auto;
-  height: 40px;
-}
-/*------------------------------------------------------------------------------------------------productos*/
-#productos {
-  height: 320px;
-  width: auto;
-  background-color: #ffe947;
-}
-#productos .prodcenter {
-  margin: 0 auto;
-  width: 1024px;
-}
-#productos .prodcenter .group {
-  margin-top: 20px;
-  border: 1px solid #808080;
-  width: 240px;
-  margin-left: 10px;
-  position: relative;
-  top: 43px;
-  background-color: #fff;
-  padding-bottom: 100px;
-  float: left;
-}
-#productos .prodcenter .group .imagen {
-  position: relative;
-  bottom: 35px;
-}
-#productos .prodcenter .group .title {
-  position: relative;
-  bottom: 35px;
-  text-align: center;
-  width: 90%;
-  margin: 0 auto;
-}
-#productos .prodcenter .group .title a {
-  text-decoration: none;
-}
-#productos .prodcenter .group .precio {
-  position: relative;
-  bottom: 30px;
-  text-align: center;
-  font-weight: 700;
-}
-#productos .prodcenter .group .boton {
-  position: relative;
-  top: 28px;
-  text-align: center;
-}
-#productos .prodcenter .group .boton a {
-  text-decoration: none;
-  padding: 5px 15px;
-  background-color: #1655b3;
-  color: #fff;
-  -webkit-border-radius: 4px;
-  -moz-border-radius: 4px;
-  border-radius: 4px;
-  -webkit-transition: 0.2s ease-in;
-  -moz-transition: 0.2s ease-in;
-  -o-transition: 0.2s ease-in;
-  -ms-transition: 0.2s ease-in;
-  transition: 0.2s ease-in;
-}
-#productos .prodcenter .group .boton a:hover {
-  background-color: #eb174f;
-}
-#productos .prodcenter .group .lista {
-  position: relative;
-  top: 50px;
-  text-align: center;
-  font-size: 0.8em;
-}
-#productos .prodcenter .group .lista a {
-  text-decoration: none;
-}
-/*------------------------------------------------------------------------------------------------baner02*/
-.baner02 {
-  background-color: #fff4a3;
-  margin-top: 70px;
-  height: 104px;
-  width: auto;
-}
-.baner02 .gropobar2 {
-  width: 700px;
-  margin: 0 auto;
-}
-.baner02 .gropobar2 .canasta {
-  float: left;
-}
-.baner02 .gropobar2 .text {
-  float: left;
-  position: relative;
-  top: 2px;
-}
-.baner02 .gropobar2 .text h2 {
-  font-size: 2em;
-  position: relative;
-  bottom: 12px;
-}
-.baner02 .gropobar2 .text span {
-  font-size: 1.62em;
-  position: relative;
-  bottom: 50px;
-  height: 0;
-}
-/*------------------------------------------------------------------------------------------------pasos*/
-.pasyel {
-  background-color: #ffe947;
-  height: 200px;
-  position: relative;
-  bottom: 32px;
-}
-.pasgris {
-  background-color: #efefef;
-  position: relative;
-  bottom: 33px;
-  height: 328px;
-}
-#pasos .all {
-  position: relative;
-  width: 1200px;
-  margin: 0 auto;
-  bottom: 30px;
-}
-#pasos .all .grupopas {
-  float: left;
-  width: 260px;
-  margin-left: 15px;
-  position: relative;
-  bottom: 466px;
-  background-color: #fff;
-  height: 343px;
-}
-#pasos .all .grupopas .title {
-  background-color: #f6ebd8;
-}
-#pasos .all .grupopas .title h2 {
-  margin: 0 0 0 12px;
-  padding: 5px 0;
-}
-#pasos .all .grupopas .imagen {
-  margin: 14px 15px;
-}
-#pasos .all .grupopas .content1 {
-  margin: 0 20px;
-  font-size: 0.9em;
-  margin-top: 30px;
-}
-#pasos .all .grupopas .content2 {
-  margin: 0 20px;
-  font-size: 0.9em;
-  position: relative;
-  bottom: 18px;
-}
-.botonazo {
-  position: relative;
-  bottom: 417px;
-  left: 460px;
-}
-.botonazo a {
-  text-decoration: none;
-  padding: 8px 25px;
-  background-color: #1655b3;
-  color: #fff;
-  font-size: 1.4em;
-  -webkit-border-radius: 4px;
-  -moz-border-radius: 4px;
-  border-radius: 4px;
-  -webkit-transition: 0.2s ease-in;
-  -moz-transition: 0.2s ease-in;
-  -o-transition: 0.2s ease-in;
-  -ms-transition: 0.2s ease-in;
-  transition: 0.2s ease-in;
-}
-.botonazo a:hover {
-  background-color: #eb174f;
-}
-/*------------------------------------------------------------------------------------------------formas*/
-.formas {
-  font-size: 1.4em;
-  position: relative;
-  left: 40px;
-  bottom: 391px;
-  width: 400px;
-  margin: 0 auto;
-}
-.barr {
-  background-color: #efefef;
-  height: 120px;
-  width: auto;
-  position: relative;
-  bottom: 380px;
-}
-.imagenbarr {
-  position: relative;
-  bottom: 495px;
-  width: 120px;
-  margin: 0 auto;
-  right: 27px;
-}
-.marcaspay {
-  position: relative;
-  bottom: 478px;
-  width: 947px;
-  margin: 0 auto;
-}
-/*------------------------------------------------------------------------------------------------footer*/
-footer {
-  position: relative;
-  bottom: 454px;
-  background-color: #000;
-  color: #fff;
-  padding: 20px 0;
-  overflow: hidden;
-  height: 65px;
-}
-footer .legal {
-  position: relative;
-  width: 400px;
-  margin: 0 auto;
-}
-footer .legal .fooel {
-  position: relative;
-  bottom: 12px;
-}
-footer .legal .text {
-  position: relative;
-  left: 116px;
-  bottom: 92px;
+/* Desktops */
+@media screen and (min-width: 1200px) {
+@import 'normalize.css';
+  .clear {
+    clear: both;
+  }
+  body {
+    font-family: 'Istok Web', sans-serif;
+    height: 200px;
+    overflow-x: hidden;
+  }
+  .top {
+    height: 10px;
+    background-color: #867d00;
+    width: auto;
+  }
+  .coloryea {
+    height: 110px;
+    width: auto;
+    background-color: #ffe947;
+  }
+  header {
+    height: 110px;
+    background-color: #ffe947;
+    width: 1200px;
+    margin: 0 auto;
+  }
+  header .logo {
+    float: left;
+    margin-left: 150px;
+  }
+  header .logo img {
+    width: 320px;
+    height: auto;
+  }
+  header .textop {
+    float: left;
+    background-color: #fff4a3;
+    padding: 0 70px;
+    text-align: center;
+    position: relative;
+    right: 37px;
+  }
+  header .textop h2 {
+    font-size: 1.7em;
+    line-height: 1;
+    margin-top: 10px;
+  }
+  header .textop span {
+    position: relative;
+    bottom: 15px;
+  }
+  .social {
+    float: left;
+    position: relative;
+    top: 30px;
+    left: 30px;
+  }
+  .social .fb-like {
+    position: relative;
+    bottom: 7px;
+  }
+  .baner {
+    height: 213px;
+    width: auto;
+    background-color: #fff4a3;
+  }
+  .baner .label {
+    background: url("assets/etiqueta.png");
+    float: left;
+    height: 253px;
+    width: 305px;
+    background-position: 0 -42px;
+    position: relative;
+    right: 247px;
+  }
+  .baner .label span {
+    float: left;
+    position: relative;
+    left: 44px;
+    width: 152px;
+    font-size: 2em;
+    font-weight: 700;
+    top: 44px;
+    color: #fff;
+    line-height: 28px;
+  }
+  .baner .content {
+    float: left;
+    position: relative;
+    right: 201px;
+    top: 25px;
+    width: 400px;
+  }
+  .baner .content .boton {
+    display: inline-block;
+  }
+  .baner .content .boton a {
+    text-decoration: none;
+    color: #fff;
+    display: block;
+    padding: 8px 25px;
+    background-color: #1655b3;
+    font-weight: 700;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    -webkit-transition: 0.2s ease-in;
+    -moz-transition: 0.2s ease-in;
+    -o-transition: 0.2s ease-in;
+    -ms-transition: 0.2s ease-in;
+    transition: 0.2s ease-in;
+  }
+  .baner .content .boton a:hover {
+    background-color: #eb174f;
+  }
+  .baner .content .texto h2 {
+    font-size: 1.59em;
+  }
+  .baner .content .texto h2 span {
+    color: #eb174f;
+  }
+  .baner .content .texto p {
+    position: relative;
+    bottom: 20px;
+  }
+  .yel {
+    background-color: #ffe947;
+    width: auto;
+    height: 40px;
+  }
+  #productos {
+    height: 320px;
+    width: auto;
+    background-color: #ffe947;
+  }
+  #productos .prodcenter {
+    margin: 0 auto;
+    width: 1024px;
+  }
+  #productos .prodcenter .group {
+    margin-top: 20px;
+    border: 1px solid #808080;
+    width: 240px;
+    margin-left: 10px;
+    position: relative;
+    top: 43px;
+    background-color: #fff;
+    padding-bottom: 100px;
+    float: left;
+  }
+  #productos .prodcenter .group .imagen {
+    position: relative;
+    bottom: 35px;
+  }
+  #productos .prodcenter .group .title {
+    position: relative;
+    bottom: 35px;
+    text-align: center;
+    width: 90%;
+    margin: 0 auto;
+  }
+  #productos .prodcenter .group .title a {
+    text-decoration: none;
+  }
+  #productos .prodcenter .group .precio {
+    position: relative;
+    bottom: 30px;
+    text-align: center;
+    font-weight: 700;
+  }
+  #productos .prodcenter .group .boton {
+    position: relative;
+    top: 28px;
+    text-align: center;
+  }
+  #productos .prodcenter .group .boton a {
+    text-decoration: none;
+    padding: 5px 15px;
+    background-color: #1655b3;
+    color: #fff;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    -webkit-transition: 0.2s ease-in;
+    -moz-transition: 0.2s ease-in;
+    -o-transition: 0.2s ease-in;
+    -ms-transition: 0.2s ease-in;
+    transition: 0.2s ease-in;
+  }
+  #productos .prodcenter .group .boton a:hover {
+    background-color: #eb174f;
+  }
+  #productos .prodcenter .group .lista {
+    position: relative;
+    top: 50px;
+    text-align: center;
+    font-size: 0.8em;
+  }
+  #productos .prodcenter .group .lista a {
+    text-decoration: none;
+  }
+  .baner02 {
+    background-color: #fff4a3;
+    margin-top: 70px;
+    height: 104px;
+    width: auto;
+  }
+  .baner02 .gropobar2 {
+    width: 700px;
+    margin: 0 auto;
+  }
+  .baner02 .gropobar2 .canasta {
+    float: left;
+  }
+  .baner02 .gropobar2 .text {
+    float: left;
+    position: relative;
+    top: 2px;
+  }
+  .baner02 .gropobar2 .text h2 {
+    font-size: 2em;
+    position: relative;
+    bottom: 12px;
+  }
+  .baner02 .gropobar2 .text span {
+    font-size: 1.62em;
+    position: relative;
+    bottom: 50px;
+    height: 0;
+  }
+  .pasyel {
+    background-color: #ffe947;
+    height: 200px;
+    position: relative;
+    bottom: 32px;
+  }
+  .pasgris {
+    background-color: #efefef;
+    position: relative;
+    bottom: 33px;
+    height: 328px;
+  }
+  #pasos .all {
+    position: relative;
+    width: 1200px;
+    margin: 0 auto;
+    bottom: 30px;
+  }
+  #pasos .all .grupopas {
+    float: left;
+    width: 260px;
+    margin-left: 15px;
+    position: relative;
+    bottom: 466px;
+    background-color: #fff;
+    height: 343px;
+  }
+  #pasos .all .grupopas .title {
+    background-color: #f6ebd8;
+  }
+  #pasos .all .grupopas .title h2 {
+    margin: 0 0 0 12px;
+    padding: 5px 0;
+  }
+  #pasos .all .grupopas .imagen {
+    margin: 14px 15px;
+  }
+  #pasos .all .grupopas .content1 {
+    margin: 0 20px;
+    font-size: 0.9em;
+    margin-top: 30px;
+  }
+  #pasos .all .grupopas .content2 {
+    margin: 0 20px;
+    font-size: 0.9em;
+    position: relative;
+    bottom: 18px;
+  }
+  .botonazo {
+    position: relative;
+    bottom: 417px;
+    left: 460px;
+  }
+  .botonazo a {
+    text-decoration: none;
+    padding: 8px 25px;
+    background-color: #1655b3;
+    color: #fff;
+    font-size: 1.4em;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    -webkit-transition: 0.2s ease-in;
+    -moz-transition: 0.2s ease-in;
+    -o-transition: 0.2s ease-in;
+    -ms-transition: 0.2s ease-in;
+    transition: 0.2s ease-in;
+  }
+  .botonazo a:hover {
+    background-color: #eb174f;
+  }
+  .formas {
+    font-size: 1.4em;
+    position: relative;
+    left: 40px;
+    bottom: 391px;
+    width: 400px;
+    margin: 0 auto;
+  }
+  .barr {
+    background-color: #efefef;
+    height: 120px;
+    width: auto;
+    position: relative;
+    bottom: 380px;
+  }
+  .imagenbarr {
+    position: relative;
+    bottom: 495px;
+    width: 120px;
+    margin: 0 auto;
+    right: 27px;
+  }
+  .marcaspay {
+    position: relative;
+    bottom: 478px;
+    width: 947px;
+    margin: 0 auto;
+  }
+  footer {
+    position: relative;
+    bottom: 454px;
+    background-color: #000;
+    color: #fff;
+    padding: 20px 0;
+    overflow: hidden;
+    height: 65px;
+  }
+  footer .legal {
+    position: relative;
+    width: 400px;
+    margin: 0 auto;
+  }
+  footer .legal .fooel {
+    position: relative;
+    bottom: 12px;
+  }
+  footer .legal .text {
+    position: relative;
+    left: 116px;
+    bottom: 92px;
+  }
 }
