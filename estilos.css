@@ -7,6 +7,383 @@ Version: 1.0
 */
 @import 'normalize.css';
 /* Mobile Firts */
+@media screen and (max-width: 767px) {
+  .clear {
+    clear: both;
+  }
+  body {
+    font-family: 'Istok Web', sans-serif;
+    height: 200px;
+    overflow-x: hidden;
+    width: 100%;
+  }
+  .top {
+    height: 5px;
+    background-color: #867d00;
+    width: auto;
+  }
+  .coloryea {
+    height: 78px;
+    width: auto;
+    background-color: #ffe947;
+  }
+  header {
+    height: 78px;
+    background-color: #ffe947;
+    margin: 0 auto;
+  }
+  header .logo {
+    float: left;
+  }
+  header .logo img {
+    width: 155px;
+    height: auto;
+  }
+  header .textop {
+    float: left;
+    background-color: #fff4a3;
+    padding: 5px;
+    text-align: center;
+    position: relative;
+    right: 37px;
+    width: 122px;
+  }
+  header .textop h2 {
+    font-size: 0.8em;
+    line-height: 77%;
+    margin-top: 10px;
+  }
+  header .textop span {
+    position: relative;
+    bottom: 15px;
+    font-size: 0.45em;
+  }
+  .social {
+    float: left;
+    position: relative;
+    top: 4px;
+    width: 10px;
+    right: 18px;
+  }
+  .social .fb-like {
+    position: relative;
+    bottom: 7px;
+  }
+  .baner {
+    height: 213px;
+    width: auto;
+    background-color: #fff4a3;
+  }
+  .baner .label {
+    background: url("assets/etiqueta.png");
+    float: left;
+    height: 196px;
+    width: 305px;
+    background-position: 185px -9px;
+    position: relative;
+    background-size: 123px;
+    background-repeat: no-repeat;
+  }
+  .baner .label span {
+    float: left;
+    position: relative;
+    left: 204px;
+    width: 71px;
+    font-size: 1em;
+    font-weight: 500;
+    top: 13px;
+    color: #fff;
+    line-height: 17px;
+  }
+  .baner .content {
+    float: left;
+    position: relative;
+    right: 274px;
+    top: 10px;
+    width: 36px;
+  }
+  .baner .content .boton {
+    display: inline-block;
+  }
+  .baner .content .boton a {
+    text-decoration: none;
+    color: #fff;
+    display: block;
+    padding: 8px 25px;
+    background-color: #1655b3;
+    font-weight: 700;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    -webkit-transition: 0.2s ease-in;
+    -moz-transition: 0.2s ease-in;
+    -o-transition: 0.2s ease-in;
+    -ms-transition: 0.2s ease-in;
+    transition: 0.2s ease-in;
+  }
+  .baner .content .boton a:hover {
+    background-color: #eb174f;
+  }
+  .baner .content .texto {
+    width: 264px;
+    position: relative;
+    top: 10px;
+  }
+  .baner .content .texto h2 {
+    font-size: 1.2em;
+  }
+  .baner .content .texto h2 span {
+    color: #eb174f;
+  }
+  .baner .content .texto p {
+    position: relative;
+    bottom: 4px;
+  }
+  .yel {
+    background-color: #ffe947;
+    width: auto;
+    height: 40px;
+  }
+  #productos {
+    height: 457px;
+    width: auto;
+    background-color: #ffe947;
+  }
+  #productos .prodcenter {
+    margin: 0 auto;
+    width: 375px;
+  }
+  #productos .prodcenter .group {
+    border: 1px solid #808080;
+    width: 167px;
+    margin-left: 5px;
+    position: relative;
+    top: -34px;
+    background-color: #fff;
+    padding-bottom: 100px;
+    float: left;
+  }
+  #productos .prodcenter .group .imagen {
+    position: relative;
+    bottom: 25px;
+  }
+  #productos .prodcenter .group .imagen img {
+    width: 90%;
+  }
+  #productos .prodcenter .group .title {
+    position: relative;
+    bottom: 20px;
+    text-align: center;
+    width: 90%;
+    margin: 0 auto;
+  }
+  #productos .prodcenter .group .title a {
+    text-decoration: none;
+  }
+  #productos .prodcenter .group .precio {
+    position: relative;
+    bottom: 10px;
+    text-align: center;
+    font-weight: 700;
+  }
+  #productos .prodcenter .group .boton {
+    position: relative;
+    top: 28px;
+    text-align: center;
+  }
+  #productos .prodcenter .group .boton a {
+    text-decoration: none;
+    padding: 5px 15px;
+    background-color: #1655b3;
+    color: #fff;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    -webkit-transition: 0.2s ease-in;
+    -moz-transition: 0.2s ease-in;
+    -o-transition: 0.2s ease-in;
+    -ms-transition: 0.2s ease-in;
+    transition: 0.2s ease-in;
+  }
+  #productos .prodcenter .group .boton a:hover {
+    background-color: #eb174f;
+  }
+  #productos .prodcenter .group .lista {
+    position: relative;
+    top: 50px;
+    text-align: center;
+    font-size: 0.8em;
+  }
+  #productos .prodcenter .group .lista a {
+    text-decoration: none;
+  }
+  .baner02 {
+    background-color: #fff4a3;
+    height: 104px;
+    width: auto;
+  }
+  .baner02 .gropobar2 {
+    width: 595px;
+    margin: 0 auto;
+  }
+  .baner02 .gropobar2 .canasta {
+    float: left;
+    width: 102px;
+    position: relative;
+    bottom: 13px;
+  }
+  .baner02 .gropobar2 .text {
+    float: left;
+    position: relative;
+    top: 18px;
+    width: 247px;
+  }
+  .baner02 .gropobar2 .text h2 {
+    font-size: 1em;
+    position: relative;
+    bottom: 12px;
+  }
+  .baner02 .gropobar2 .text span {
+    font-size: 0.8em;
+    position: relative;
+    bottom: 32px;
+    height: 0;
+  }
+  .pasyel {
+    background-color: #ffe947;
+    height: 200px;
+    position: relative;
+    bottom: 32px;
+  }
+  .pasgris {
+    background-color: #efefef;
+    position: relative;
+    bottom: 33px;
+    height: 680px;
+  }
+  #pasos .all {
+    position: relative;
+    width: 320px;
+    top: -386px;
+  }
+  #pasos .all .grupopas {
+    float: left;
+    width: 240px;
+    margin-left: 56px;
+    position: relative;
+    bottom: 505px;
+    background-color: #fff;
+    height: 343px;
+    margin-top: 21px;
+  }
+  #pasos .all .grupopas .title {
+    background-color: #f6ebd8;
+  }
+  #pasos .all .grupopas .title h2 {
+    margin: 0 0 0 12px;
+    padding: 5px 0;
+  }
+  #pasos .all .grupopas .imagen {
+    margin: 14px 15px;
+  }
+  #pasos .all .grupopas .imagen img {
+    width: 99%;
+    height: auto;
+  }
+  #pasos .all .grupopas .content1 {
+    margin: 0 20px;
+    font-size: 0.9em;
+    margin-top: 30px;
+  }
+  #pasos .all .grupopas .content2 {
+    margin: 0 20px;
+    font-size: 0.9em;
+    position: relative;
+    bottom: 18px;
+  }
+  .botonazo {
+    width: 225px;
+    margin-left: 73px;
+    position: relative;
+    bottom: 438px;
+  }
+  .botonazo a {
+    text-decoration: none;
+    padding: 8px 25px;
+    background-color: #1655b3;
+    color: #fff;
+    font-size: 1.4em;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    -webkit-transition: 0.2s ease-in;
+    -moz-transition: 0.2s ease-in;
+    -o-transition: 0.2s ease-in;
+    -ms-transition: 0.2s ease-in;
+    transition: 0.2s ease-in;
+  }
+  .botonazo a:hover {
+    background-color: #eb174f;
+  }
+  .formas {
+    font-size: 1.4em;
+    position: relative;
+    left: 56px;
+    width: 400px;
+    margin: 0 auto;
+    top: -775px;
+  }
+  .barr {
+    background-color: #efefef;
+    height: 120px;
+    width: auto;
+    position: relative;
+    top: -753px;
+  }
+  .imagenbarr {
+    position: relative;
+    top: -866px;
+    width: 120px;
+    margin: 0 auto;
+    right: 27px;
+  }
+  .marcaspay {
+    position: relative;
+    top: -817px;
+    width: 770px;
+  }
+  .marcaspay img {
+    width: 45%;
+  }
+  footer {
+    position: relative;
+    bottom: 769px;
+    background-color: #000;
+    color: #fff;
+    padding: 20px 0;
+    height: 340px;
+  }
+  footer .legal {
+    position: relative;
+    width: 400px;
+    margin: 0 auto;
+  }
+  footer .legal .fooel {
+    position: relative;
+    bottom: -29px;
+    left: 26px;
+  }
+  footer .legal .fooel img {
+    width: 33%;
+  }
+  footer .legal .text {
+    position: relative;
+    left: 27px;
+    bottom: 51px;
+    font-size: 1.2em;
+    top: 37px;
+  }
+}
 /* Tablets: Portrait */
 @media screen and (min-width: 768px) and (max-width: 991px) {
   .clear {
@@ -16,6 +393,7 @@ Version: 1.0
     font-family: 'Istok Web', sans-serif;
     height: 200px;
     overflow-x: hidden;
+    width: 100%;
   }
   .top {
     height: 10px;
@@ -145,7 +523,7 @@ Version: 1.0
   }
   #productos .prodcenter {
     margin: 0 auto;
-    width: 762px;
+    width: 758px;
   }
   #productos .prodcenter .group {
     margin-top: 20px;
@@ -342,11 +720,10 @@ Version: 1.0
   .marcaspay {
     position: relative;
     top: -817px;
-    width: 872px;
-    margin: 0 auto;
+    width: 770px;
   }
   .marcaspay img {
-    width: 88%;
+    width: 97%;
   }
   footer {
     position: relative;
@@ -367,13 +744,13 @@ Version: 1.0
     left: -99px;
   }
   footer .legal .fooel img {
-    width: 61%;
+    width: 21%;
   }
   footer .legal .text {
     position: relative;
     left: 196px;
-    bottom: 135px;
-    font-size: 1.5em;
+    bottom: 51px;
+    font-size: 1.2em;
   }
 }
 /* Tablets: Landscape */
